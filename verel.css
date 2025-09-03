@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;       
+}
+.container{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;    
+    background-color: #272453;
+    height: 60px;
+}
+.row1{
+    width: 100%;
+    height: 1500px;
+}
+.name{
+    height: 100px;
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+}
+.name h1{
+    color: white;
+    text-align: center;
+}
+.vse{
+    height: 25px;
+    background-color: #c9c8c8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vse p{
+    color: #393939;
+    font-size: x-small;
+    text-align: center;
+    font-family: math;
+}
+.line{
+    margin-top: 5px;
+    border-width: 2px;
+    border-color: #272453;
+}
